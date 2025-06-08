@@ -1,0 +1,10 @@
+Good morning/afternoon, sir/madam. 
+yes sir,My name is Koppisetti Sri Venkata Vamsi Manikanta, and I am from Amalapuram, Konasemma district. I am currently pursuing my Bachelor of Technology in Information Technology from R.V.R & J.C College of Engineering. During my studies, I have 
+completed two internships through Internshala, in my second year and third year of college. 
+Apart from my internships,and I have also worked on several projects, including:
+QR Code Generation Using Python: In this project, I developed a customizable QR code generator using Python, HTML, CSS, and JavaScript. The tool automates the creation of QR codes for URLs, text, and contact information, which can be used in marketing and user authentication.and another
+Movie Ticket Booking System: I built a web application that allows users to browse movies, choose showtimes, and book tickets online. I used PHP for backend logic and MySQL to store data related to users, movies, showtimes, and bookings.
+coming to my  strengths are self motivator, quick learner ,honest , punctual, i can work independently.
+Coming to my hobbies, in my free time, playing basketball and watching real stories
+My short-term goal is to start my career in a well-reputed company and gain experience.
+My long-term goal is to achieve a higher position in my profession  
