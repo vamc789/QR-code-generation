@@ -1,0 +1,25 @@
+#read QR code data using python
+source code:
+import qrcode
+
+qr = qrcode.QRCode(
+    version=5,
+    box_size=5,
+    border=2
+)
+
+name = input('Enter Name: ')
+age = int(input('Enter Age: '))
+education = input('Enter Education Qualification: ')
+
+data = {'name': name, 'age': age, 'edu': education}
+
+# Convert dictionary to string
+data_str = str(data)
+
+qr.add_data(data_str)
+qr.make(fit=True)
+
+img = qr.make_image(fill_color='black', back_color='white')
+img.save('pic2.jpg')
+img.show()
