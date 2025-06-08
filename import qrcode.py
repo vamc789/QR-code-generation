@@ -1,0 +1,6 @@
+import qrcode
+# generating  a QR code using the make() function
+qr_img = qrcode.make("welcome to the vamsi world")
+# saving the image file
+qr_img.save("pic1.jpg")
+qr_img.show()
