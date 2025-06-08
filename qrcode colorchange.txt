@@ -1,0 +1,23 @@
+#these code was qrcode color and background
+sourcecode:
+import qrcode
+
+data = 'www.linkedin.com/in/vamsi789/'
+
+# Create QRCode instance
+qr = qrcode.QRCode(
+    version=5,
+    box_size=5,
+    border=2,
+)
+
+# Add data to the QRCode instance
+qr.add_data(data)
+qr.make(fit=True)
+
+# Create an image from the QRCode instance
+img = qr.make_image(fill_color='red', back_color='blue')
+
+# Save and show the image
+img.save('pic2.jpg')
+img.show()
