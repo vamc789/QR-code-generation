@@ -1,0 +1,8 @@
+#these qrcode the linkedin pageopen the link page
+source code:
+import qrcode
+  
+data = 'www.linkedin.com/in/vamsi789'
+qr = qrcode.make(data)
+qr.save("pic2.jpg")
+qr.show()
